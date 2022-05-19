@@ -48,6 +48,10 @@ a:link {
   color: white;
 }
 
+a:visited {
+  color: white;
+}
+
 .container {
   color: silver;
   background-color: #1f2937;
