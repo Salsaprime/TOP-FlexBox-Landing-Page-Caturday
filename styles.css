@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+}
+
+h2 {
+    background-color: white;
+    font-size: 36px;
+    text-align: center;
+  }
+
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  border-color: #3882f6;
+  width: 100px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.header {
+  color: silver;
+  background-color: #1f2937;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.header ul {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+a:link {
+  color: white;
+}
+
+.container {
+  color: silver;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
+  gap: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.container img {
+  max-height: 250px;
+  max-width: 500px;
+}
+
+.info-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.info-container img {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 25px;
+  border: 4px solid #3882f6;
+}
+
+.info {
+  text-align: center;
+}
+
+.quote-container {
+    background-color: silver;
+    padding: 0 15%
+}
+
+.quote-container h2 { 
+    background-color: silver;
+    font-style: italic;
+    padding-top: 5%;
+}
+
+.quote-container h3 {
+    color: black;
+    text-align: right;
+    padding-bottom: 5%
+}
+
+.action-container {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%
+}
+
+.button {
+   display: flex;
+   justify-content: right;
+   padding: 0 15%
+}
+
+.action-color-wrap {
+    background-color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.action-con {
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+}
+
+ .action-con div {
+     margin: -5px; /* hides div rounded corners */
+     margin-top: 40px;
+     margin-bottom: 40px;
+     padding: 0px 60px;
+    background-color:#3882F6;
+    justify-content: center;
+    border-radius: 8px;
+} 
+.call-text {
+    color: white;
+}
+
+.sign-button {
+    flex: 25%;
+    align-items: center;
+    display: flex;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+
+.foot-con {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 2%;
+}
+
